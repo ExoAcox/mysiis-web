@@ -1,0 +1,68 @@
+import React from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
+
+import TextArea from "./index";
+
+export default {
+    title: "input/TextArea",
+    component: TextArea,
+    argTypes: {
+        value: {
+            description: "Text area value",
+            control: { type: "text" },
+        },
+        onChange: {
+            description: "onChange event",
+            control: { disable: true },
+        },
+        label: {
+            description: "Text area label",
+        },
+        placeholder: {
+            description: "Text area placeholder",
+        },
+        rows: {
+            description: "Text area rows",
+        },
+        cols: {
+            description: "Text area columns",
+        },
+        variant: {
+            description: "Text area variant",
+            options: ["outlined", "underlined"],
+        },
+        borderColor: {
+            description: "Border color, support tailwind border color",
+            options: ["primary", "secondary"],
+            control: {
+                type: "select",
+            },
+        },
+        className: {
+            description: "Custom classes",
+        },
+        controller: {
+            description: "React Hook Form register instance",
+            control: { disable: true },
+        },
+        disabled: {
+            description: "Text area disabled",
+        },
+        error: {
+            description: "Error validation message",
+        },
+    },
+} as ComponentMeta<typeof TextArea>;
+
+const Template: ComponentStory<typeof TextArea> = (args) => <TextArea {...args} />;
+
+export const Default = Template.bind({});
+Default.parameters = {
+    docs: {
+        description: {
+            component: `**import { TextArea } from "@components/input"**`,
+        },
+    },
+};
+
+Default.args = {};

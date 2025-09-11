@@ -1,0 +1,57 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+    background-color: white;
+    border: 1px solid #f2f2f2;
+
+    li {
+        display: inline-block;
+        height: 100%;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 30px;
+            min-height: 30px;
+            height: 100%;
+            cursor: pointer;
+            color: red;
+            border-radius: 4px;
+            outline: none;
+            font-size: 14px;
+            margin: auto 2px;
+
+            &:hover {
+                background-color: red;
+                color: #fff;
+            }
+        }
+
+        &.disabled {
+            a {
+                box-shadow: none;
+                background-color: transparent;
+                cursor: default;
+                color: gray;
+
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+
+        &.active {
+            a {
+                color: black;
+            }
+        }
+    }
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+}

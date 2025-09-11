@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    @import "@styles/components";
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+body > * {
+    ::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #aaacaf;
+        border-radius: 10px;
+    }
+}
+
+label {
+    cursor: inherit;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition-delay: 9999s;
+    transition-delay: 9999s;
+}
+
+input:focus {
+    outline: none;
+}
+
+.rdrDateRangePickerWrapper {
+    .rdrDefinedRangesWrapper {
+        display: none;
+    }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+#nprogress .bar {
+    background: white;
+}
+
+.ProseMirror:focus {
+    outline: none;
+}

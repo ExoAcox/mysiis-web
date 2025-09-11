@@ -1,0 +1,46 @@
+import React from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
+
+import Pagination from "./index";
+
+export default {
+    title: "navigation/Pagination",
+    component: Pagination,
+    argTypes: {
+        page: {
+            description: "Current page",
+        },
+        onChange: {
+            description: "onPageChange event",
+            control: { disable: true },
+        },
+        row: {
+            description: "Row per page",
+        },
+        totalCount: {
+            description: "Total data count",
+        },
+        className: {
+            description: "Custom classes",
+        },
+    },
+} as ComponentMeta<typeof Pagination>;
+
+const Template: ComponentStory<typeof Pagination> = (args) => <Pagination {...args} />;
+
+export const Default = Template.bind({});
+Default.parameters = {
+    docs: {
+        description: {
+            component: `**import { Pagination } from "@components/navigation"**`,
+        },
+    },
+};
+
+let page = 1;
+
+Default.args = {
+    page,
+    onChange: () => page++,
+    totalCount: 75,
+};

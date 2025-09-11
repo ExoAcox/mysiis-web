@@ -1,0 +1,493 @@
+<testExecutions version="1">
+  <file path="__tests__/Home.test.tsx">
+    <testCase name="Home page - Test snapshot" duration="184" />
+    <testCase name="Home page - Search &amp; filter portofolio" duration="213" />
+    <testCase name="Home page - Mobile device" duration="158" />
+  </file>
+  <file path="__tests__/Login.test.tsx">
+    <testCase name="Login Page - Test snapshot" duration="67" />
+    <testCase name="Login Page - Remember me click" duration="25" />
+    <testCase name="Login Page - Sign in click" duration="30" />
+    <testCase name="Login Page - Sign in click user status not verified" duration="24" />
+    <testCase name="Login Page - Sign in click reject" duration="40" />
+    <testCase name="Login Page - Login with access telkom" duration="40" />
+    <testCase name="Login Page - Login with IndiHome Partner" duration="35" />
+    <testCase name="Login Page - Login with NIK Telkom" duration="37" />
+  </file>
+  <file path="__tests__/forgot-password/ForgotPassword.test.tsx">
+    <testCase name="Forgot password page - Test snapshot" duration="48" />
+    <testCase name="Forgot password page - Forgot password success" duration="20" />
+  </file>
+  <file path="__tests__/fulfillment/OdpView.test.tsx">
+    <testCase name="Odp View page - Test snapshot" duration="118" />
+    <testCase name="Odp View page - Odp hit" duration="126" />
+    <testCase name="Odp View page - Mobile device" duration="63" />
+    <testCase name="Odp View page - Odp dummy hit" duration="48" />
+    <testCase name="Odp View page - Mock getColor speedtest" duration="0" />
+  </file>
+  <file path="__tests__/login-mip.test.tsx">
+    <testCase name="Login Mip - Test snapshot" duration="23" />
+    <testCase name="Login Mip - Login Mip error" duration="4" />
+  </file>
+  <file path="__tests__/new-password/NewPassword.test.tsx">
+    <testCase name="New Password - Test snapshot" duration="50" />
+  </file>
+  <file path="__tests__/otp-verification/OtpVerification.test.tsx">
+    <testCase name="New Password - Test snapshot" duration="64" />
+    <testCase name="New Password - Verification otp code" duration="29" />
+    <testCase name="New Password - Resend otp" duration="8" />
+  </file>
+  <file path="__tests__/planning/dashboard-microdemand/account/Account.test.tsx">
+    <testCase name="Dashboard microdemand page - Test snapshot" duration="166" />
+    <testCase name="Dashboard microdemand page - Menu member" duration="128" />
+    <testCase name="Dashboard microdemand page - Menu pending" duration="127" />
+    <testCase name="Dashboard microdemand page - Menu block" duration="117" />
+  </file>
+  <file path="__tests__/planning/dashboard-microdemand/dashboard/Dashboard.admin-mitra.test.tsx">
+    <testCase name="Dashboard microdemand page - Test snapshot" duration="305" />
+    <testCase name="Dashboard microdemand page - Open survey detail" duration="337" />
+    <testCase name="Dashboard microdemand mobile page - Test snapshot" duration="60" />
+  </file>
+  <file path="__tests__/planning/dashboard-microdemand/dashboard/Dashboard.admin-regional.test.tsx">
+    <testCase name="Dashboard microdemand page - Test snapshot" duration="194" />
+    <testCase name="Dashboard microdemand page - Open survey evidance detail" duration="249" />
+  </file>
+  <file path="__tests__/planning/dashboard-microdemand/dashboard/Dashboard.admin-witel.test.tsx">
+    <testCase name="Dashboard microdemand page - Test snapshot" duration="248" />
+    <testCase name="Dashboard microdemand page - Open survey unsc detail" duration="343" />
+  </file>
+  <file path="__tests__/planning/data-competitor/detail-competitor/DetailCompetitor.test.tsx">
+    <testCase name="Data competitor detail competitor page - Test snapshot" duration="83" />
+    <testCase name="Data competitor detail competitor page - Detail competitor error get data" duration="18" />
+    <testCase name="Data competitor detail competitor page - Detail competitor filter get data" duration="486" />
+    <testCase name="Data competitor detail competitor page - Detail competitor table data" duration="114" />
+    <testCase name="Data competitor detail competitor page - Detail competitor with user regional error get data" duration="17" />
+    <testCase name="Data competitor detail competitor page - Detail competitor with user regional get data" duration="23" />
+    <testCase name="Data competitor detail competitor page - Detail competitor with user witel error get data" duration="16" />
+    <testCase name="Data competitor detail competitor page - Detail competitor with user witel get data" duration="18" />
+    <testCase name="Data competitor detail competitor page - Detail competitor mock getStatusOcc" duration="0" />
+    <testCase name="Data competitor detail competitor page - Detail competitor mock getOverallMatch" duration="0" />
+    <testCase name="Data competitor detail competitor page - Detail competitor mock exportCsv" duration="0" />
+  </file>
+  <file path="__tests__/planning/data-competitor/detail-competitor/DetailCompetitorMobile.test.tsx">
+    <testCase name="Data competitor detail competitor mobile page - Test snapshot mobile" duration="96" />
+    <testCase name="Data competitor detail competitor mobile page - Detail competitor error get data mobile" duration="27" />
+    <testCase name="Data competitor detail competitor mobile page - Detail competitor filter get data mobile" duration="596" />
+  </file>
+  <file path="__tests__/planning/data-competitor/summary-competitor/SummaryCompetitor.test.tsx">
+    <testCase name="Data competitor summary competitor page - Test snapshot" duration="65" />
+    <testCase name="Data competitor summary competitor page - Summary competitor error get data" duration="10" />
+    <testCase name="Data competitor summary competitor page - Summary competitor test" duration="54" />
+    <testCase name="Data competitor summary competitor page - Summary competitor with user regional" duration="8" />
+  </file>
+  <file path="__tests__/planning/data-demand/detail-summary/DetailSummary.test.tsx">
+    <testCase name="Data demand detail summary page - Detail summary mock fetchDefaultWitel" duration="0" />
+  </file>
+  <file path="__tests__/planning/data-demand/internet-summary/InternetSummary.test.tsx">
+    <testCase name="Data demand internet summary page - Test snapshot" duration="106" />
+    <testCase name="Data demand internet summary page - Internet summary error get data" duration="56" />
+    <testCase name="Data demand internet summary page - Internet summary test error" duration="118" />
+    <testCase name="Data demand internet summary page - Internet summary test success" duration="80" />
+    <testCase name="Data demand internet summary page - Internet summary test access unauthorized" duration="14" />
+  </file>
+  <file path="__tests__/planning/data-demand/internet-summary/InternetSummaryDetailModal.test.tsx">
+    <testCase name="Data demand internet summary page detail modal - Test" duration="27" />
+  </file>
+  <file path="__tests__/planning/data-demand/internet-summary/InternetSummaryMobile.test.tsx">
+    <testCase name="Data demand internet summary page mobile - Test snapshot" duration="95" />
+    <testCase name="Data demand internet summary page mobile - Internet summary test success" duration="122" />
+  </file>
+  <file path="__tests__/planning/data-demand/maps-summary/MapsSummary.test.tsx">
+    <testCase name="Data demand maps summary page - Null" duration="0" />
+  </file>
+  <file path="__tests__/planning/data-demand/summary-target/SummaryTarget.test.tsx">
+    <testCase name="Data demand summary target page - Test snapshot" duration="85" />
+    <testCase name="Data demand summary target page - Summary target test chart not success with custom user" duration="35" />
+    <testCase name="Data demand summary target page - Summary target test chart not success" duration="22" />
+    <testCase name="Data demand summary target page - Summary target test chart success" duration="60" />
+    <testCase name="Data demand summary target page - Summary target test chart mobile responsive" duration="62" />
+    <testCase name="Data demand summary target page - Summary target mock colorPicker" duration="0" />
+    <testCase name="Data demand summary target page - Summary target mock hexToRgbA" duration="1" />
+    <testCase name="Data demand summary target page - Summary target mock options" duration="0" />
+    <testCase name="Data demand summary target page - Summary target mock dataFormat" duration="0" />
+  </file>
+  <file path="__tests__/planning/district-validation/maps-summary/MapsSummary.test.tsx">
+    <testCase name="District Validation page - Test snapshot" duration="107" />
+    <testCase name="District Validation page - Radius" duration="29" />
+  </file>
+  <file path="__tests__/planning/ipca/components/listItem.test.tsx">
+    <testCase name="testing component ipca - test ListItem" duration="18" />
+  </file>
+  <file path="__tests__/planning/ipca/functions/common.test.tsx">
+    <testCase name="function ipca - should exportCsv" duration="1" />
+  </file>
+  <file path="__tests__/planning/ipca/ipca.test.tsx">
+    <testCase name="Ipca Page - test snapshoot ipca" duration="68" />
+    <testCase name="Ipca Page - test desktop version ipca" duration="123" />
+    <testCase name="Ipca Page - test mobile version ipca" duration="35" />
+  </file>
+  <file path="__tests__/planning/ipca/queries/odpAddons.test.tsx">
+    <testCase name="quesries ipca - should fetchBuildingIpca" duration="1" />
+  </file>
+  <file path="__tests__/planning/mysiista/functions_test/address.test.tsx">
+    <testCase name="testing function mysiista addressß - should handleSetAddress" duration="1" />
+  </file>
+  <file path="__tests__/planning/mysiista/functions_test/drawing.test.tsx">
+    <testCase name="testing function mysiista drawing - should handleDelete" duration="1" />
+  </file>
+  <file path="__tests__/planning/mysiista/mysiista.test.tsx">
+    <testCase name="MySissta Pages - Snapshoot MySiista" duration="95" />
+    <testCase name="MySissta Pages - should fetch data" duration="38" />
+    <testCase name="MySissta Pages - should Floating menu" duration="60" />
+    <testCase name="MySissta Pages - should mysiista mobile version" duration="37" />
+    <testCase name="MySissta Pages - should mysiista filter dropdown" duration="29" />
+  </file>
+  <file path="__tests__/planning/odp-area/components/CheckBoxOdpArea.test.tsx">
+    <testCase name="CheckBoxOdpArea - should snapshoot CheckBoxOdpArea" duration="31" />
+  </file>
+  <file path="__tests__/planning/odp-area/components/InputTextOdpArea.test.tsx">
+    <testCase name="InputTextOdpArea - should snapshoot InputTextOdpArea" duration="28" />
+  </file>
+  <file path="__tests__/planning/odp-area/components/ListItem.test.tsx">
+    <testCase name="CheckBoxOdpArea - should snapshoot CheckBoxOdpArea" duration="18" />
+  </file>
+  <file path="__tests__/planning/odp-area/district-odp.test.tsx">
+    <testCase name="odp-summary DistrictSummaryPage - Snapshoot DistrictSummaryPage" duration="87" />
+    <testCase name="odp-summary DistrictSummaryPage - test mobile version" duration="76" />
+    <testCase name="odp-summary DistrictSummaryPage - test Desktop version DistrictSummaryPage" duration="63" />
+  </file>
+  <file path="__tests__/planning/odp-area/district-summary.test.tsx">
+    <testCase name="district-summary - Snapshoot district-summary" duration="86" />
+    <testCase name="district-summary - should click maps district-summary" duration="21" />
+    <testCase name="district-summary - testing filter tabel" duration="74" />
+    <testCase name="district-summary - should InfoDistrictSummaryMobile" duration="3" />
+  </file>
+  <file path="__tests__/planning/odp-area/odp-summary.test.tsx">
+    <testCase name="odp-summary - Snapshoot OdpSummaryPage" duration="82" />
+    <testCase name="odp-summary - should click maps" duration="16" />
+    <testCase name="odp-summary - should filter odp-summary" duration="100" />
+  </file>
+  <file path="__tests__/planning/odp-area/queries/building_by_kelurahan.test.tsx">
+    <testCase name="testing queries building kelurahan - testing fetchBuildingByKelurahan resolve" duration="2" />
+    <testCase name="testing queries building kelurahan - testing fetchBuildingByKelurahan reject" duration="0" />
+    <testCase name="testing queries building kelurahan - testing fetchReportData" duration="0" />
+  </file>
+  <file path="__tests__/planning/odp-area/queries/odp_uim_by_kelurahan.test.tsx">
+    <testCase name="odp uim by kelurahan - testing fetchOdpUimByKelurahan" duration="1" />
+  </file>
+  <file path="__tests__/planning/odp-area/queries/odp_uim_mini_by_kabupaten.test.tsx">
+    <testCase name="testing queries odp uim mini kabupaten - testing fetchOdpUimMiniByKabupaten resolve" duration="0" />
+  </file>
+  <file path="__tests__/planning/odp-area/queries/summary_odp_uim_valins.test.tsx">
+    <testCase name="testing queries odp uim mini kabupaten - testing fetchOdpUimMiniByKabupaten resolve" duration="1" />
+  </file>
+  <file path="__tests__/planning/odp-area/queries/summary_penetration_odp_building.test.tsx">
+    <testCase name="testing queries odp uim mini kabupaten - testing fetchOdpUimMiniByKabupaten resolve" duration="1" />
+    <testCase name="testing queries odp uim mini kabupaten - should testing distric summary" duration="28" />
+  </file>
+  <file path="__tests__/planning/sentiment-feedback/SentimentFeedback.test.tsx">
+    <testCase name="Sentiment feedback page - Test snapshot" duration="77" />
+    <testCase name="Sentiment feedback page - Sentiment feedback filter data" duration="91" />
+    <testCase name="Sentiment feedback page - Sentiment feedback test api prediction close modal" duration="52" />
+    <testCase name="Sentiment feedback page - Sentiment feedback test api error get prediction" duration="51" />
+    <testCase name="Sentiment feedback page - Sentiment feedback test api prediction negative with percentage confident" duration="90" />
+    <testCase name="Sentiment feedback page - Sentiment feedback test api prediction negative without percentage confident" duration="92" />
+    <testCase name="Sentiment feedback page - Sentiment feedback test api prediction positive with percentage confident" duration="57" />
+    <testCase name="Sentiment feedback page - Sentiment feedback test api prediction positive without percentage confident" duration="49" />
+    <testCase name="Sentiment feedback page - Sentiment feedback test api prediction neutral with percentage confident" duration="64" />
+    <testCase name="Sentiment feedback page - Sentiment feedback test api prediction neutral without percentage confident" duration="56" />
+    <testCase name="Sentiment feedback page - Sentiment feedback upload csv close modal" duration="34" />
+    <testCase name="Sentiment feedback page - Sentiment feedback mock getPrediction" duration="0" />
+  </file>
+  <file path="__tests__/planning/sentiment-feedback/SentimentFeedbackMobile.test.tsx">
+    <testCase name="Sentiment feedback page mobile - Test snapshot" duration="74" />
+    <testCase name="Sentiment feedback page mobile - Sentiment feedback data" duration="48" />
+    <testCase name="Sentiment feedback page mobile - Sentiment feedback test api prediction close modal" duration="54" />
+  </file>
+  <file path="__tests__/planning/sentiment-feedback/SentimentFeedbackUpload.test.tsx">
+    <testCase name="Sentiment feedback upload csv features - Upload csv failed state" duration="20" />
+    <testCase name="Sentiment feedback upload csv features - Upload csv failed state upload again" duration="4" />
+    <testCase name="Sentiment feedback upload csv features - Upload csv progress state" duration="4" />
+    <testCase name="Sentiment feedback upload csv features - Upload csv success state" duration="3" />
+  </file>
+  <file path="__tests__/profile/address/Address.test.tsx">
+    <testCase name="Address page - Test snapshot" duration="83" />
+    <testCase name="Address page - Input form success close with icon" duration="130" />
+    <testCase name="Address page - Input form success close with button" duration="94" />
+    <testCase name="Address page - Pick from maps not succeed" duration="35" />
+    <testCase name="Address page - Pick from maps initiate" duration="29" />
+    <testCase name="Address page - Pick from maps on search" duration="32" />
+    <testCase name="Address page - Pick from maps on click" duration="35" />
+  </file>
+  <file path="__tests__/profile/change-password/ChangePassword.test.tsx">
+    <testCase name="ChangePassword page - Test snapshot" duration="59" />
+    <testCase name="ChangePassword page - Change password form error min length" duration="26" />
+    <testCase name="ChangePassword page - Change password form error not match" duration="18" />
+    <testCase name="ChangePassword page - Change password form error save" duration="14" />
+    <testCase name="ChangePassword page - Change password form success" duration="38" />
+  </file>
+  <file path="__tests__/profile/faq/Faq.test.tsx">
+    <testCase name="Faq page - Test snapshot" duration="71" />
+    <testCase name="Faq page - Faq component getFaqAllCategoryActiveEmpty" duration="33" />
+    <testCase name="Faq page - Faq component" duration="46" />
+  </file>
+  <file path="__tests__/profile/main/Profile.test.tsx">
+    <testCase name="Profile page - Test snapshot" duration="111" />
+    <testCase name="Profile page - Profile edit error" duration="66" />
+    <testCase name="Profile page - Profile edit success" duration="47" />
+    <testCase name="Profile page - Profile edit success email" duration="63" />
+    <testCase name="Profile page - Profile edit success mobile" duration="139" />
+  </file>
+  <file path="__tests__/profile/main/ProfileNoAccount.test.tsx">
+    <testCase name="Profile no address page - Test snapshot" duration="110" />
+    <testCase name="Profile no address page - Profile no address edit" duration="43" />
+    <testCase name="Profile no address page - Profile no address edit email" duration="42" />
+    <testCase name="Profile no address page - Profile no address edit mobile" duration="44" />
+  </file>
+  <file path="__tests__/profile/main/ProfileNoAddress.test.tsx">
+    <testCase name="Profile no address page - Test snapshot" duration="130" />
+    <testCase name="Profile no address page - Profile no address edit" duration="43" />
+  </file>
+  <file path="__tests__/profile/point/Point.test.tsx">
+    <testCase name="Point page - Test snapshot" duration="92" />
+    <testCase name="Point page - Point component: change point tab bar, point data undefined | Point description | Point history call" duration="55" />
+    <testCase name="Point page - Point history totalData is 0" duration="43" />
+    <testCase name="Point page - Point history totalData &gt; 0" duration="16" />
+  </file>
+  <file path="__tests__/profile/point/PointBanner.test.tsx">
+    <testCase name="Point banner features - Test snapshot" duration="21" />
+    <testCase name="Point banner features - Point banner features" duration="45" />
+  </file>
+  <file path="__tests__/profile/point/PointWithDataExchange.test.tsx">
+    <testCase name="Point with data exchange - Point with data exchange snapshot" duration="104" />
+    <testCase name="Point with data exchange - Point with data exchange to trigger modalPointRedeemAddressConfirmation" duration="65" />
+    <testCase name="Point with data exchange - Point with data exchange to trigger modalPointRedeemAddressConfirmation" duration="56" />
+  </file>
+  <file path="__tests__/profile/point/PointWithDataExchangeNoAddress.test.tsx">
+    <testCase name="Point with data exchange no need address - Point with data exchange no need address snapshot" duration="102" />
+    <testCase name="Point with data exchange no need address - Point with data exchange no need address to trigger modalPointRedeemAddressConfirmation" duration="62" />
+    <testCase name="Point with data exchange no need address - Point with data exchange no need address to trigger modalPointRedeemAddressConfirmation" duration="64" />
+  </file>
+  <file path="__tests__/profile/point/PointWithDataExchangeNoProfile.test.tsx">
+    <testCase name="Point with data exchange no profile - Point with data exchange no profile snapshot" duration="109" />
+    <testCase name="Point with data exchange no profile - Point with data exchange no profile to trigger modalPointRedeemAddressCheck" duration="122" />
+  </file>
+  <file path="__tests__/profile/point/PointWithDataLottery.test.tsx">
+    <testCase name="Point with data lottery - Point with data lottery snapshot" duration="101" />
+    <testCase name="Point with data lottery - Point with data lottery component" duration="108" />
+  </file>
+  <file path="__tests__/profile/terms-condition/TermsCondition.test.tsx">
+    <testCase name="Terms Condition page - Test snapshot" duration="60" />
+    <testCase name="Terms Condition page - Terms condition page" duration="12" />
+  </file>
+  <file path="utils/api/__tests__/Account.test.tsx">
+    <testCase name="getToken" duration="1" />
+    <testCase name="getCredential" duration="0" />
+    <testCase name="getTokenMip" duration="0" />
+    <testCase name="getCurrentUser" duration="0" />
+    <testCase name="getListUser" duration="0" />
+    <testCase name="forgotPassword" duration="0" />
+    <testCase name="verifyForgotPassword" duration="0" />
+    <testCase name="changePassword" duration="0" />
+    <testCase name="blockUser" duration="1" />
+    <testCase name="unBlockUser" duration="0" />
+    <testCase name="editCustomData" duration="0" />
+    <testCase name="editProfile" duration="0" />
+    <testCase name="verifyUser" duration="1" />
+    <testCase name="rejectUser" duration="0" />
+    <testCase name="editEmailProfile" duration="0" />
+    <testCase name="editMobileProfile" duration="0" />
+    <testCase name="verifyOTPEmail" duration="0" />
+    <testCase name="verifyOTPMobile" duration="0" />
+    <testCase name="editEmailDirectProfile" duration="0" />
+    <testCase name="editMobileDirectProfile" duration="0" />
+    <testCase name="editPassword" duration="0" />
+    <testCase name="resendOTP" duration="0" />
+  </file>
+  <file path="utils/api/__tests__/Addons.test.tsx">
+    <testCase name="getIpcaByWitel" duration="2" />
+    <testCase name="getBuildingIpcaById" duration="0" />
+    <testCase name="getUimIpcaById" duration="1" />
+  </file>
+  <file path="utils/api/__tests__/Building.test.tsx">
+    <testCase name="getBuildingByKelurahan" duration="1" />
+  </file>
+  <file path="utils/api/__tests__/Content.test.tsx">
+    <testCase name="getFaqAllCategoryActive" duration="0" />
+    <testCase name="getFaqByCategory" duration="1" />
+    <testCase name="getFaqBySearch" duration="0" />
+    <testCase name="getFaqByPopularity" duration="0" />
+    <testCase name="getPointDescription" duration="0" />
+    <testCase name="getTermsCondition" duration="0" />
+  </file>
+  <file path="utils/api/__tests__/Dispatch.test.tsx">
+    <testCase name="getUnitByUser" duration="1" />
+    <testCase name="createTicket" duration="1" />
+  </file>
+  <file path="utils/api/__tests__/District.test.tsx">
+    <testCase name="getDirection" duration="2" />
+    <testCase name="searchTMaps" duration="0" />
+    <testCase name="getKelurahanByLocation" duration="0" />
+    <testCase name="getKabupatenDagri" duration="1" />
+    <testCase name="getKabupatenDetail" duration="0" />
+    <testCase name="getProvinsi" duration="0" />
+    <testCase name="getKabupaten" duration="0" />
+    <testCase name="getKecamatan" duration="1" />
+    <testCase name="getKelurahan" duration="0" />
+    <testCase name="getNcx" duration="0" />
+    <testCase name="getStreet" duration="0" />
+    <testCase name="getNcxMiss" duration="1" />
+    <testCase name="getSummaryNcxMiss" duration="0" />
+    <testCase name="getRegional" duration="0" />
+    <testCase name="getWitel" duration="0" />
+    <testCase name="getSto" duration="0" />
+    <testCase name="getOdc" duration="1" />
+    <testCase name="summaryOdpUimValins" duration="0" />
+    <testCase name="summaryPenetrasiOdpBuilding" duration="0" />
+  </file>
+  <file path="utils/api/__tests__/Indihome.test.tsx">
+    <testCase name="getMyIhxAddressTranslate" duration="1" />
+    <testCase name="getMyIhxAddressTranslateDetail" duration="0" />
+    <testCase name="getMyIhxFunnel" duration="1" />
+    <testCase name="getMyIhxFunnelRaw" duration="0" />
+    <testCase name="getMyIhxFunnelV2" duration="0" />
+    <testCase name="getMyIhxFunnelDetail" duration="0" />
+    <testCase name="getMyIhxFunnelDetailRaw" duration="0" />
+    <testCase name="getMyIhxFunnelV2Detail" duration="0" />
+  </file>
+  <file path="utils/api/__tests__/Multilayer.test.tsx">
+    <testCase name="getAllMultilayer" duration="2" />
+    <testCase name="getAllSentimentFeedback" duration="1" />
+    <testCase name="uploadSentiment" duration="0" />
+    <testCase name="testSentiment" duration="1" />
+  </file>
+  <file path="utils/api/__tests__/News.test.tsx">
+    <testCase name="getAllNews" duration="0" />
+    <testCase name="getNews" duration="1" />
+    <testCase name="getAllBanner" duration="0" />
+  </file>
+  <file path="utils/api/__tests__/Notification.test.tsx">
+    <testCase name="getNotification" duration="0" />
+    <testCase name="readNotification" duration="0" />
+    <testCase name="readAllNotification" duration="0" />
+  </file>
+  <file path="utils/api/__tests__/Nps.test.tsx">
+    <testCase name="getNps" duration="0" />
+    <testCase name="submitNps" duration="1" />
+  </file>
+  <file path="utils/api/__tests__/Oca.test.tsx">
+    <testCase name="sendMessageWA" duration="2" />
+  </file>
+  <file path="utils/api/__tests__/Odp.test.tsx">
+    <testCase name="getOdp" duration="1" />
+    <testCase name="getOdpUimByKelurahan" duration="0" />
+    <testCase name="getOdpUimMiniByKabupaten" duration="0" />
+    <testCase name="getPackage" duration="0" />
+    <testCase name="getAllCompetitor" duration="1" />
+    <testCase name="getCompetitorSummary" duration="0" />
+    <testCase name="getRegionalCompetitor" duration="0" />
+    <testCase name="getSummaryByRegional" duration="0" />
+    <testCase name="getWitelCompetitor" duration="0" />
+    <testCase name="getCustomerId" duration="1" />
+    <testCase name="getOdpCustomer" duration="0" />
+    <testCase name="getSmartSales" duration="0" />
+  </file>
+  <file path="utils/api/__tests__/Point.test.tsx">
+    <testCase name="getMyVoucher" duration="0" />
+    <testCase name="getMyWallet" duration="0" />
+    <testCase name="getWallet" duration="0" />
+    <testCase name="getTask" duration="0" />
+    <testCase name="getVoucher" duration="0" />
+    <testCase name="getPointExchange" duration="1" />
+  </file>
+  <file path="utils/api/__tests__/Rpa.test.tsx">
+    <testCase name="getDeviceConnected" duration="1" />
+    <testCase name="getDeviceConnectedByNd" duration="0" />
+    <testCase name="getPooling" duration="1" />
+    <testCase name="getPoolingDetail" duration="0" />
+    <testCase name="uploadPooling" duration="1" />
+  </file>
+  <file path="utils/api/__tests__/Speedtest.test.tsx">
+    <testCase name="getOoklaByCoordinate" duration="1" />
+    <testCase name="getOoklaByKelurahan" duration="0" />
+    <testCase name="getSummaryOoklaByKelurahan" duration="0" />
+  </file>
+  <file path="utils/api/__tests__/SurveyDemand.test.tsx">
+    <testCase name="getConfiguration" duration="0" />
+    <testCase name="getSurveyorAssignment" duration="1" />
+    <testCase name="getSurveyorAssignmentTregWitel" duration="0" />
+    <testCase name="getDataMicrodemand" duration="0" />
+    <testCase name="getInfoBatasAdministratif" duration="1" />
+    <testCase name="getPredicCountBulding" duration="0" />
+    <testCase name="getPolygon" duration="0" />
+    <testCase name="getPolygonMicrodemand" duration="0" />
+    <testCase name="generateToken" duration="0" />
+    <testCase name="addAssignment" duration="1" />
+    <testCase name="addPolygon" duration="0" />
+    <testCase name="activateAssignment" duration="0" />
+    <testCase name="activateAssignmentByPolygon" duration="0" />
+    <testCase name="getRespondentsPoi" duration="1" />
+    <testCase name="validateRespondent" duration="0" />
+    <testCase name="getRespondentByRegAndPolygon" duration="1" />
+    <testCase name="getRespondentByValid" duration="1" />
+    <testCase name="getRespondentByWitel" duration="1" />
+    <testCase name="getRespondentWithResponse" duration="0" />
+    <testCase name="getSurvey" duration="0" />
+    <testCase name="getSurveyCount" duration="1" />
+    <testCase name="getSurveyCountWitel" duration="0" />
+    <testCase name="getSurveyDetail" duration="0" />
+    <testCase name="getSupervisor" duration="0" />
+    <testCase name="getSupervisorAssignment" duration="0" />
+    <testCase name="createSupervisor" duration="0" />
+    <testCase name="deleteSupervisor" duration="0" />
+    <testCase name="getSurveyCategory" duration="1" />
+    <testCase name="getTarget" duration="0" />
+    <testCase name="getTargetRegional" duration="0" />
+    <testCase name="getTargetVendor" duration="0" />
+    <testCase name="getTargetWitel" duration="0" />
+    <testCase name="getTahap" duration="0" />
+    <testCase name="getVendor" duration="0" />
+    <testCase name="getWitelByUser" duration="0" />
+  </file>
+  <file path="utils/functions/__tests__/common.test.tsx">
+    <testCase name="intersection - should return the intersection of two arrays" duration="1" />
+    <testCase name="intersection - should return an empty array if there is no intersection between two arrays" duration="0" />
+    <testCase name="intersection - should handle empty arrays as inputs without throwing an error" duration="0" />
+    <testCase name="convertHtmlToString - should replace &lt;br&gt; with a space" duration="0" />
+    <testCase name="convertHtmlToString - should replace all HTML tags with an empty string" duration="0" />
+    <testCase name="convertHtmlToString - should return an empty string when passed an empty string" duration="0" />
+    <testCase name="convertHtmlToString - should return the same string when passed a plain text string" duration="0" />
+    <testCase name="errorHelper - should return an error object when passed an instance of Error" duration="0" />
+    <testCase name="errorHelper - should return an object with a message property when passed a non-Error object" duration="0" />
+    <testCase name="errorHelper - should return an object with a message property when passed a non-object value" duration="0" />
+    <testCase name="titleCase - should return a string with the first letter of each word capitalized" duration="0" />
+    <testCase name="titleCase - should return an empty string if passed an empty string" duration="0" />
+    <testCase name="titleCase - should handle strings with multiple words" duration="0" />
+    <testCase name="titleCase - should handle strings with special characters" duration="0" />
+    <testCase name="titleCase - should handle strings with numbers" duration="1" />
+    <testCase name="validationPhoneNumber - should return true when valid phone number is passed" duration="0" />
+    <testCase name="validationPhoneNumber - should return true when valid phone number is passed" duration="0" />
+    <testCase name="validationPhoneNumber - should return false when invalid phone number is passed" duration="0" />
+    <testCase name="validationPhoneNumber - should return false when empty string is passed" duration="0" />
+    <testCase name="validationEmail - should return true when valid email is passed" duration="0" />
+    <testCase name="validationEmail - should return false when invalid email is passed" duration="0" />
+    <testCase name="validationEmail - should return false when empty string is passed" duration="0" />
+    <testCase name="compareNumbers - should return the difference between two numbers" duration="0" />
+    <testCase name="compareNumbers - should return 0 if two numbers are equal" duration="0" />
+    <testCase name="compareNumbers - should return a negative number if the first number is smaller than the second number" duration="0" />
+    <testCase name="compareNumbers - should return a positive number if the first number is greater than the second number" duration="1" />
+    <testCase name="getPercent - should return a percentage value" duration="0" />
+    <testCase name="getPercent - should default to 2 decimal places" duration="0" />
+    <testCase name="getPercent - should return 0 if not provided valid arguments" duration="0" />
+    <testCase name="getPercent - should return 0 if arguments NaN" duration="0" />
+    <testCase name="objectMap - should call the callback for each key" duration="0" />
+    <testCase name="objectMap - should map the objects keys and values as expected" duration="0" />
+    <testCase name="getBold - should return the string with the keyword in bold" duration="0" />
+    <testCase name="getBold - should be case insensitive" duration="0" />
+    <testCase name="getBold - should return the original string" duration="0" />
+    <testCase name="getUrl - should replace the url with a link" duration="0" />
+    <testCase name="getUrl - should not replace the string if no url is present" duration="0" />
+    <testCase name="customFormData - should return a FormData object" duration="0" />
+    <testCase name="customFormData - should append the keys and values to the FormData object" duration="0" />
+  </file>
+</testExecutions>

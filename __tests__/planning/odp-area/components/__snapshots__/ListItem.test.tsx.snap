@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CheckBoxOdpArea > should snapshoot CheckBoxOdpArea 1`] = `
+<DocumentFragment>
+  <div
+    id="__root"
+  >
+    <div
+      class="flex"
+    >
+      <div
+        class="w-full  undefined"
+      />
+      <div
+        class="w-full flex-wrap"
+      >
+        : content
+      </div>
+    </div>
+    <div
+      id="__modal"
+    />
+  </div>
+</DocumentFragment>
+`;

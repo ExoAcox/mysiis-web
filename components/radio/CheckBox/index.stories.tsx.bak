@@ -1,0 +1,69 @@
+import React from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
+
+import CheckBox from "./index";
+
+export default {
+    title: "input/CheckBox",
+    component: CheckBox,
+    argTypes: {
+        values: {
+            description: "Check box values",
+        },
+        onChange: {
+            description: "onChange event",
+            control: { disable: true },
+        },
+        options: {
+            description: "Check box options",
+        },
+        label: {
+            description: "Check box label",
+        },
+        icon: {
+            description: "Check box icon",
+        },
+        color: {
+            description: "Color, support tailwind color",
+            options: ["primary", "secondary"],
+            control: {
+                type: "select",
+            },
+        },
+        className: {
+            description: "Custom classes",
+        },
+        controller: {
+            description: "React Hook Form register instance",
+            control: { disable: true },
+        },
+        disabled: {
+            description: "Check box disabled",
+        },
+        error: {
+            description: "Error validation message",
+        },
+    },
+} as ComponentMeta<typeof CheckBox>;
+
+const Template: ComponentStory<typeof CheckBox> = (args) => <CheckBox {...args} />;
+
+export const Default = Template.bind({});
+Default.parameters = {
+    docs: {
+        description: {
+            component: `**import { CheckBox } from "@components/inputButton"**`,
+        },
+    },
+};
+
+Default.args = {
+    value: ["b", "d"],
+    options: [
+        { label: "jawaban a", value: "a" },
+        { label: "jawaban b", value: "b" },
+        { label: "jawaban c", value: "c" },
+        { label: "jawaban d", value: "d" },
+        { label: "jawaban e", value: "e" },
+    ],
+};

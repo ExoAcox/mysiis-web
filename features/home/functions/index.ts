@@ -1,0 +1,1 @@
+export { filterCategory, filterByName } from './filter'

@@ -1,0 +1,37 @@
+{
+  "root": true,
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "testing-library",
+    "@typescript-eslint"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)"
+      ],
+      "extends": [
+        "plugin:testing-library/react"
+      ]
+    }
+  ],
+  "rules": {
+    "react-hooks/exhaustive-deps": "off",
+    "jsx-a11y/alt-text": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "react-hooks/rules-of-hooks": "off",
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "error",
+          "warn"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+@import "./modal";
+@import "./input";
+
+.pointer-events-through {
+    pointer-events: none;
+
+    &>* {
+        pointer-events: auto;
+    }
+}
+
+.scrollbar-flip {
+    transform: scaleX(-1);
+
+    &>* {
+        transform: scaleX(-1);
+    }
+}
+
+.scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.scrollbar-visible {
+    -ms-overflow-style: auto;
+    scrollbar-width: auto;
+
+    &::-webkit-scrollbar {
+        display: auto;
+    }
+}
+
+.scrollbar-visible-block {
+    @extend .scrollbar-visible;
+
+    &::-webkit-scrollbar {
+        display: block;
+    }
+}
+
+.accordion-url {
+    cursor: pointer;
+
+    a {
+        color: #ee3124;
+        text-decoration: underline;
+    }
+}

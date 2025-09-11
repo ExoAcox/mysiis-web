@@ -1,0 +1,66 @@
+import React from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
+
+import TextField from "./index";
+
+export default {
+    title: "input/TextField",
+    component: TextField,
+    argTypes: {
+        value: {
+            description: "Input value",
+            control: { type: "text" },
+        },
+        onChange: {
+            description: "onChange event",
+            control: { disable: true },
+        },
+        label: {
+            description: "Input label",
+        },
+        placeholder: {
+            description: "Input placeholder",
+        },
+        type: {
+            description: "Input type",
+            options: ["text", "number"],
+        },
+        variant: {
+            description: "Input variant",
+            options: ["outlined", "underlined"],
+        },
+        borderColor: {
+            description: "Border color, support tailwind border color",
+            options: ["primary", "secondary"],
+            control: {
+                type: "select",
+            },
+        },
+        className: {
+            description: "Custom classes",
+        },
+        controller: {
+            description: "React Hook Form register instance",
+            control: { disable: true },
+        },
+        disabled: {
+            description: "Input disabled",
+        },
+        error: {
+            description: "Error validation message",
+        },
+    },
+} as ComponentMeta<typeof TextField>;
+
+const Template: ComponentStory<typeof TextField> = (args) => <TextField {...args} />;
+
+export const Default = Template.bind({});
+Default.parameters = {
+    docs: {
+        description: {
+            component: `**import { TextField } from "@components/input"**`,
+        },
+    },
+};
+
+Default.args = {};

@@ -1,0 +1,61 @@
+import React from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
+
+import PasswordField from "./index";
+
+export default {
+    title: "input/PasswordField",
+    component: PasswordField,
+    argTypes: {
+        value: {
+            description: "Input value",
+            control: { type: "text" },
+        },
+        onChange: {
+            description: "onChange event",
+            control: { disable: true },
+        },
+        label: {
+            description: "Input label",
+        },
+        placeholder: {
+            description: "Input placeholder",
+        },
+        variant: {
+            description: "Input variant",
+            options: ["outlined", "underlined"],
+        },
+        borderColor: {
+            description: "Border color, support tailwind border color",
+            options: ["primary", "secondary"],
+            control: {
+                type: "select",
+            },
+        },
+        className: {
+            description: "Custom classes",
+        },
+        controller: {
+            description: "React Hook Form register instance",
+            control: { disable: true },
+        },
+        disabled: {
+            description: "Input disabled",
+        },
+        error: {
+            description: "Error validation message",
+        },
+    },
+} as ComponentMeta<typeof PasswordField>;
+
+const Template: ComponentStory<typeof PasswordField> = (args) => <PasswordField {...args} />;
+
+export const Default = Template.bind({});
+Default.parameters = {
+    docs: {
+        description: {
+            component: `**import { PasswordField } from "@components/input"**`,
+        },
+    },
+};
+Default.args = {};

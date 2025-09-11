@@ -1,0 +1,66 @@
+import React from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
+
+import RadioButton from "./index";
+
+export default {
+    title: "input/RadioButton",
+    component: RadioButton,
+    argTypes: {
+        value: {
+            description: "Radio button value",
+        },
+        onChange: {
+            description: "onChange event",
+            control: { disable: true },
+        },
+        options: {
+            description: "Radio button options",
+        },
+        label: {
+            description: "Radio button label",
+        },
+        color: {
+            description: "Color, support tailwind color",
+            options: ["primary", "secondary"],
+            control: {
+                type: "select",
+            },
+        },
+        className: {
+            description: "Custom classes",
+        },
+        controller: {
+            description: "React Hook Form register instance",
+            control: { disable: true },
+        },
+        disabled: {
+            description: "Radio button disabled",
+        },
+        error: {
+            description: "Error validation message",
+        },
+    },
+} as ComponentMeta<typeof RadioButton>;
+
+const Template: ComponentStory<typeof RadioButton> = (args) => <RadioButton {...args} />;
+
+export const Default = Template.bind({});
+Default.parameters = {
+    docs: {
+        description: {
+            component: `**import { RadioButton } from "@components/inputButton"**`,
+        },
+    },
+};
+
+Default.args = {
+    value: "a",
+    options: [
+        { label: "jawaban a", value: "a" },
+        { label: "jawaban b", value: "b" },
+        { label: "jawaban c", value: "c" },
+        { label: "jawaban d", value: "d" },
+        { label: "jawaban e", value: "e" },
+    ],
+};

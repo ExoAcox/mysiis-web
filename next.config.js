@@ -1,5 +1,4 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const JavaScriptObfuscator = require("webpack-obfuscator");
 
 module.exports = {
     output: "standalone",
@@ -13,6 +12,7 @@ module.exports = {
     images: {
         domains: ["storage.googleapis.com", "api.veritrans.co.id", "play.min.io", "smd-core.udata.id", "minio-revoluzio-dev.mysiis.io"],
         minimumCacheTTL: 60 * 60 * 2,
+        unoptimized: true,
     },
     compiler:
         process.env.NODE_ENV === "production"
@@ -22,25 +22,12 @@ module.exports = {
                 },
             }
             : {},
-    webpack: (config, { dev, isServer }) => {
+    webpack: (config) => {
         config.module.rules.push({
             test: /\.svg$/i,
             issuer: /\.[jt]sx?$/,
             use: [{ loader: "@svgr/webpack", options: { icon: true } }],
         });
-
-        // if (!dev && !isServer) {
-        //     config.plugins.push(
-        //         new JavaScriptObfuscator(
-        //             {
-        //                 rotateStringArray: true, // Obfuscates strings
-        //                 selfDefending: true, // Adds extra obfuscation defenses
-        //                 compact: true, // Removes unnecessary spaces
-        //             },
-        //             []
-        //         )
-        //     );
-        // }
 
         return config;
     },

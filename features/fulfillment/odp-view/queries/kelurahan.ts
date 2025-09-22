@@ -54,7 +54,7 @@ const fetchKelurahan = async (args: FetchKelurahan) => {
 
     useFilterStore.setState({ smartsales: false, ipca_cluster: false, speedtest: false });
 
-    if (access !== "allowed") {
+    if (access === "forbidden") {
         useKelurahanStore.setState({
             data: kelurahanDefaultValue,
             status: "resolve",
@@ -62,6 +62,41 @@ const fetchKelurahan = async (args: FetchKelurahan) => {
         });
 
         return fetchOdp({ access, source, radius, filters, latLng });
+    }
+
+    if (access === "unauthorized") {
+        try {
+            const geocoder = new window.google.maps.Geocoder();
+            geocoder.geocode({ location: latLng }, (response) => {
+                googleMaps.panTo(latLng);
+                if (googleMaps.getZoom()! < 17) googleMaps.setZoom(17);
+
+                useKelurahanStore.setState({
+                    data: {
+                        formattedAddress: response?.[0].formatted_address ?? "",
+                        kode_desa_dagri: "",
+                        kelurahan: "",
+                        kecamatan: "",
+                        kota: "",
+                        provinsi: "",
+                        regional: "",
+                        witel: "",
+                        lat: 0,
+                        long: 0
+                    },
+                    status: "resolve",
+                });
+            });
+
+
+
+            return fetchOdp({ access, source, radius, filters, latLng });
+
+            // fetchOdp({ access, source, radius, filters, latLng });
+        } catch (error) {
+            useKelurahanStore.setState({ status: "reject", error: errorHelper(error) });
+            return;
+        }
     }
 
     try {
